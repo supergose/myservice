@@ -1,6 +1,10 @@
 {
   "name": "@supergose/myservice",
   "version": "0.1.2",
+  "repository": {
+    "type" : "git"
+  , "url" : "https://github.com/supergose/myservice.git"
+  },
   "license": "MIT",
   "main": "./dist/myservice.common.js",
   "scripts": {
