@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <h1>Hello Service!</h1>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyService from './bundle'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  mounted: function() {
+    MyService.getItems().then((response) => {
+      // eslint-disable-next-line
+      console.log(response.body)
+    })
   }
 }
 </script>
