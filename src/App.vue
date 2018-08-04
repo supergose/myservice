@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import MyService from './bundle'
+import { MyService, AnotherService } from './bundle'
 
 export default {
   name: 'app',
@@ -14,6 +14,7 @@ export default {
       // eslint-disable-next-line
       console.log(response.body)
     })
+    AnotherService.sayHello()
   }
 }
 </script>

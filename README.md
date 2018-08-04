@@ -1,8 +1,3 @@
-<div align="center">
-  <img width="200" heigth="200" src="src/assets/logo.png" alt="Vue-logo">
-</div>
-
-
 # MyService Sample project
 
 [![npm version](https://badge.fury.io/js/%40supergose%2Fmyservice.svg)](https://badge.fury.io/js/%40supergose%2Fmyservice)

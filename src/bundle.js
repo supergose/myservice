@@ -1,3 +1,7 @@
 import MyService from './MyService'
+import AnotherService from './AnotherService'
 
-export default MyService
+export {
+    MyService,
+    AnotherService   
+}
